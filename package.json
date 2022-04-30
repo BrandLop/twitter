@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandLop/twitter.git"
+  },
+  "author": "BrandLop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandLop/twitter/issues"
+  },
+  "homepage": "https://github.com/BrandLop/twitter#readme"
+}
