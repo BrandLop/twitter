@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BrandLop/twitter/issues"
   },
-  "homepage": "https://github.com/BrandLop/twitter#readme"
+  "homepage": "https://github.com/BrandLop/twitter#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
