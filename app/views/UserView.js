@@ -6,8 +6,9 @@ class UserView {
       return {
         error: 'payload does not exist'
       }
-    }
-    else {
+    } else if (typeof payload.username === 'string' && typeof payload.name === 'string' && typeof payload.id === 'number' ) {
+      return UserService.create(payload.id,payload.username, payload.name)
+    } else {
       return {
         error: 'It is necessary to have a defined value'
       }
